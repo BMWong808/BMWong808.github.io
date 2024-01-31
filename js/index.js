@@ -119,6 +119,7 @@ function loginPageEvents() {
 
 function scheduleEvents(){
     let data = [
+        /*
         {id: "timelineTeamBuilding", title: "Team Building Event", date: " ⁠— Fri 17:00 - 20:00",
             desc: `This event will be for finding other group members to add to your team. `},
         {id: "timelineInduction", title: "Induction  ", date: " ⁠— Sat 11:00 - 12:00",
@@ -129,7 +130,29 @@ function scheduleEvents(){
             desc: `A talk to let you know how to submit your work and start the end of the hack!`},
         {id: "timelineEnd", title: "Hacking Ends", date: " ⁠— Sun 12:00",
             desc: `Hacking ends at midday on Sunday, so make sure you get everything submitted!`},
-        // {id: "timelineJudge", title: "Judging/Showcase", date: "Sun 13:00 - 15:00",
+            */
+        {id: "timelineRegistration", title: "Registration", date: " Sat 10:00 - 11:00",
+            desc: `This will be the time to arrive and get signed in.`},
+        {id: "timelineWelcome", title: "Welcome and Track introductions", date: " Sat 11:00 - 12:00",
+            desc: `This will be the welcome presentation and introduction to our tracks.`},
+        {id: "timelineStart", title: "Hacking Begins!", date: " Sat 12:00",
+            desc: `This is when the hacking officially begins!`},
+        {id: "timelineNetworking", title: "Networking Fair and Dinner", date: " Sat 16:30 - 18:30",
+            desc: `Your opportunity to talk to employers and have dinner.`},
+        {id: "timelineEndTalk", title: "How to use Devpost", date: " Sun 11:00 - 11:30",
+            desc: `This presentation will cover the basics of using Devpost to submit your work.`},
+        {id: "timelineEnd", title: "Hacking Ends", date: " Sun 12:00",
+            desc: `Hacking ends at midday on Sunday, so make sure you get everything submitted!`},
+        {id: "timelineLunch2", title: "Lunch", date: " Sun 12:00 - 12:30",
+            desc: `Lunch!`},
+        {id: "timelinePresentations", title: "Presentations", date: " Sun 12:30 - 13:30",
+            desc: `This event will allow you to show off your solutions and discover solutions that others have made.`},
+        {id: "timelineJudging", title: "Judging and Talks", date: " Sun 13:30 - 14:30",
+            desc: `During this time there will be talks while solutions are judged for the track prizes.`},
+        {id: "timelinePrizes", title: "Prizes", date: " Sun 14:30 - 15:30",
+            desc: `Winners will be announced and prizes distributed!`},
+        // {id: "timelineJudge", title: "Judging/Showcase", date: "Sun 14:30 - 15:30",
+    
         //     desc: `During this window, we will play all the demo videos over the livestream so the other groups can see what has been made.
         // <br><br>While we do this, the judges will make their way around various Discord voice channels, asking a couple of questions about the project.
         // This is another chance for you to show off, so please do make sure you're in a free voice channel while the judging is taking place!`},
