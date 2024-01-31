@@ -1,6 +1,5 @@
-
 /* TIMELINE */
-#timeline-container {   
+#timeline-container {
   overflow: auto;
   padding: 0px 0;
 }
@@ -34,9 +33,9 @@
   --item-width: calc(100%);
 }
 
-.timeline-item:hover{
-    background-color: #DDDDDD;
-    cursor:pointer;
+.timeline-item:hover {
+  background-color: #dddddd;
+  cursor: pointer;
 }
 
 .timeline-item::after {
@@ -67,7 +66,7 @@
     position: relative;
     left: 85px;
   }
-  
+
   .timeline .timeline-item::after {
     right: calc(var(--item-width) + 30px);
   }
